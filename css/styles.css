@@ -1,0 +1,108 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #1a73e8;
+    margin-top: 20px;
+  }
+  
+  /* Estilo de la navegación en index.html */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 15px 0; /* Aumenta la separación entre opciones */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1a73e8;
+    padding: 10px 20px;
+    border: 2px solid #1a73e8;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #1a73e8;
+    color: #fff;
+  }
+  
+  /* Contenedor de la zona de información */
+  .zona-info {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .zona-info h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .zona-info p {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  /* Estilo de los botones y su separación */
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Espacio adicional debajo del botón */
+    transition: background-color 0.3s;
+  }
+  
+  button + button { /* Agrega espacio entre botones consecutivos */
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #1666c1;
+  }
+  
+  /* Estilo del mensaje de ronda realizada */
+  #mensaje-ronda {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #e0ffe0;
+    color: #2d7a2d;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  #mensaje-ronda p {
+    margin: 0;
+  }
+  
